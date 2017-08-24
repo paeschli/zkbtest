@@ -15,20 +15,20 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <!--build>
+  <build>
     <plugins>
       <plugin>
         <groupId>com.heroku.sdk</groupId>
         <artifactId>heroku-maven-plugin</artifactId>
         <version>1.2.0</version>
         <configuration>
-          <appName>morning-brook-46314</appName>
+          <appName>aqueous-tor-84816</appName>
           <processTypes>
             <web>java $JAVA_OPTS -cp target/classes:target/dependency/* Main</web>
           </processTypes>
         </configuration>
       </plugin>
     </plugins>
-    <finalName>hello</finalNam>
-  </build-->
+    <!--finalName>hello</finalNa-->
+  </build>
 </project>
